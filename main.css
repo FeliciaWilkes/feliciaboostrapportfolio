@@ -7,4 +7,64 @@ body {
   background: #f5cb5c;
 }
 
+/* navbar */
+.navbar {
+  background: #242423;
+  padding: 10px 20px;
+  transition: padding 2s ease;
+}
 
+.navbar-background {
+  padding: 2px 20px;
+}
+
+.navbar-brand {
+  color: #cfdbd5;
+  border: 3px solid #cfdbd5;
+  transition: all 2s ease;
+}
+
+.navbar-brand:hover {
+  background: #cfdbd5;
+  color: #333533;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 23px;
+  height: 3px;
+  margin: 5px;
+  background: #f5cb5c;
+}
+.nav-link {
+  color: #cfdbd5;
+  font-size: 25px;
+  padding: 10px 20px !important;
+  border-radius: 5px;
+  transition: all 2s ease;
+}
+
+.nav-link:hover {
+  background: #f5cb5c;
+  color: #333533;
+}
+
+.nav-active {
+  color: #333533;
+  padding: 10px 20px !important;
+  background: rgba(245, 203, 92, 0.6);
+}
+.search-btn {
+  background: #f5cb5c;
+  transition: all 2s ease;
+}
+.search-btn:hover {
+  color: #f5cb5c;
+  background: black;
+}
+
+.navbar-toggler {
+  border: #f5cb5c;
+  padding: 5px;
+}

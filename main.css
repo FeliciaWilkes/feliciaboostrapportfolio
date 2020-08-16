@@ -36,7 +36,21 @@ body {
   height: 3px;
   margin: 5px;
   background: #f5cb5c;
+  transition: all 2s ease;
 }
+
+.change .bar1 {
+  transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: rotate(45deg) translate(-5px, -8px);
+}
+
 .nav-link {
   color: #cfdbd5;
   font-size: 25px;

@@ -40,7 +40,7 @@ body {
 }
 
 .change .bar1 {
-  transform: rotate(-45deg) translate(-5px,6px);
+  transform: rotate(-45deg) translate(-5px, 6px);
 }
 
 .change .bar2 {
@@ -81,4 +81,43 @@ body {
 .navbar-toggler {
   border: #f5cb5c;
   padding: 5px;
+}
+/* slider */
+.item-1,
+.item-2,
+.item-3 {
+  min-height: 60vh;
+}
+.no-padding {
+  padding: 0;
+}
+.item-1 {
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-attachment: fixed;
+  background: linear-gradient(
+    to right,
+    rgba(245, 203, 92, 0),
+    rgba(245, 203, 92, 1)
+  );
+}
+.item-2 {
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-attachment: fixed;
+  background: linear-gradient(
+    to right,
+    rgba(245, 203, 92, 0),
+    rgba(245, 203, 92, 1)
+  );
+}
+.item-3 {
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-attachment: fixed;
+  background: linear-gradient(
+    to right,
+    rgba(245, 203, 92, 0),
+    rgba(245, 203, 92, 1)
+  );
 }

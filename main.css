@@ -87,6 +87,7 @@ body {
 .item-2,
 .item-3 {
   min-height: 60vh;
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 95%);
 }
 .no-padding {
   padding: 0;
@@ -120,4 +121,42 @@ body {
     rgba(245, 203, 92, 0),
     rgba(245, 203, 92, 1)
   );
+}
+.banner-btn {
+  color: #333533;
+  border: 2px solid #333533;
+  transition: all 1s ease;
+  box-shadow: 0 5px 15px rgba(245, 203, 92, 0.6);
+}
+.title-underline {
+  height: 5px;
+  width: 250px;
+  background: #f5cb5c;
+  margin: -28px auto 0 auto;
+}
+
+.title a {
+  color: #f5cb5c;
+  font-size: 30px;
+  padding: 0 10px;
+  display: inline-block;
+  background: #e8eddf;
+}
+.skills-icon{
+  background: #242423;
+  transition: all 1s ease;
+  clip-path: polygon(0 0,50% 0, 100% 100%, 0 100%);
+}
+.skills-icon:hover{
+  background: #f5cb5c;
+
+}
+.skills-icon span{
+  color: #cfdbd5;
+  font-size: 100px;
+  transition: all 1s ease-in-out;
+}
+
+.skills-icon span:hover{
+  color: #333533;
 }
